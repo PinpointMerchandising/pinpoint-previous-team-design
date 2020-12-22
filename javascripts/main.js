@@ -262,7 +262,6 @@ jQuery(document).ready(function($){
 
 });
 
-new BugController({'imageSprite':'./source/fly-sprite.png', 'minBugs': 2, 'maxBugs':2, 'mouseOver':'die'});
 
 
 let teamInfo = [
