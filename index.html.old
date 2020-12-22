@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="icon" href="https://www.pinpointmerch.com/source/favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pinpoint Merchandising</title>
+<link href="css/styles.css?ver=201905241" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="javascripts/jquery.responsivetext.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="javascripts/flowtype.js"></script>
+<script type="text/javascript"> 
+        $j = jQuery.noConflict();
+        $j(document).ready(function() {
+           $j('body').flowtype({
+                minimum   : 300,
+                maximum   : 4000,
+                minFont   : 9,
+                maxFont   : 100
+              });
+			$j("h1").flowtype({
+                minFont: 9,
+                fontRatio: 30
+            });  
+            $j("h2").flowtype({
+                minFont: 9,
+                fontRatio: 30
+            });
+			$j("h3").flowtype({
+                minFont: 9,
+                fontRatio: 30
+            });
+			$j("h4").flowtype({
+                minFont: 9,
+                fontRatio: 30
+            });
+			$j("p").flowtype({
+                minFont: 12,
+                fontRatio: 30
+            });
+        });
+    </script>
+<script src="https://use.typekit.net/ndf0awn.js"></script>
+<script>
+try{Typekit.load({ async: true });}catch(e){}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body onLoad="MM_preloadImages('source/leadership/TOMI_HOVER.jpg')">
+<!-- Main Container -->
+<div class="maincontainer"> 
+<!-- Navigation -->
+<div class="header">
+  <div class="social"><a href="https://www.google.com/maps/place/3710+W+Royal+Ln,+Irving,+TX+75063/@32.9174596,-97.0018621,17z/data=!3m1!4b1!4m2!3m1!1s0x864c29859124445b:0x94e97d963282be3" target="_blank"><img src="source/google.png" alt="Google"/></a><a href="https://www.facebook.com/Pinpoint-Merchandising-169683519737865/?fref=ts" target="_blank"><img src="source/facebook.png" alt="Facebook"/></a><a href=" https://www.linkedin.com/company/10389258?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10389258%2Cidx%3A2-1-2%2CtarId%3A1462309302532%2Ctas%3Apinpoint%20mer" target="_blank"><img src="source/linkedin.png" alt="Linkdin"/></a><a href=" https://www.instagram.com/pinpointmerch/?hl=en" target="_blank"><img src="source/instagram.png" alt="Instagram"/></a><a href=" https://www.youtube.com/watch?v=fBvBaTsXI4U&t=3s" target="_blank"><img src="source/youtube.png" alt="YouTube"/></a></div>
+  <div class="topContact">800.521.2462<br>
+3710 W ROYAL LN, SUITE 125<br>
+IRVING, TX 75063</div>
+  <div class="logo"><a href="index.html"><img src="source/Pinpoint_Logo.svg" alt="Pinpoint Merchandising"/></a></div>
+   <div class="navTop">
+   
+ <ul>
+    <li><a href="#hero">HOME</a></li>
+    <li><a href="what_we_do.html">WHAT WE DO</a></li>
+    <li><a href="custom-apparel.html">APPAREL</a></li>
+    <li><a href="webstores.html">WEBSTORES</a></li>
+    <li><a href="gallery.html">GALLERY</a></li>
+	<li><a href="https://www.instagram.com/pinpointmerch/?hl=en" target="_blank">INSTAGRAM</a></li>
+    <li><a href="hit_us_up.html">HIT US UP</a></li>
+ </ul>
+ 
+  </div>
+</div>
+ <!-- Hero Slider Section -->
+ 
+ <div class="jquery-script-clear"></div>
+ <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000"> 
+<!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+ <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+ <div class="carousel-inner">
+<!-- Slide 1 -->
+ <div class="item active"> <img src="source/slides/slide-1.jpg" style="width:100%" alt="GRAPHIC DESIGN WIZARDRY">
+   <div class="container">
+     <div class="carousel-caption">
+      
+       <div class="slideTitle"><a href="gallery.html">GRAPHIC DESIGN WIZARDRY</a></div>
+        <div class="slideTagline"><a href="gallery.html">see gallery</a></div>
+     </div>
+  </div>
+ </div>
+ 
+<!-- Slide 2 -->
+    <div class="item"> <img src="source/slides/slide-3.jpg" style="width:100%" data-src="" alt="CUSTOM APPAREL PRODUCTION">
+    <div class="container">
+      <div class="carousel-caption">
+        <div class="slideSingleTitle">CUSTOM APPAREL PRODUCTION</div>
+       </div>
+    </div>
+ </div>
+ 
+<!-- Slide 3 -->
+     <div class="item"> <img src="source/slides/slide-5.jpg" style="width:100%" data-src="" alt="CUSTOM ONLINE STORES">
+      <div class="container">
+        <div class="carousel-caption">
+         <div class="slideTitle"><a href="webstores.html">LICENSED MERCHANDISING</a></div>
+        <div class="slideTagline"><a href="webstores.html">we make cool stuff</a></div>
+        </div>
+      </div>
+    </div>
+ 
+ 
+<!-- Slide 4 -->
+     <div class="item"> <img src="source/slides/slide-2.jpg" style="width:100%" data-src="" alt="CUSTOM ONLINE STORES">
+      <div class="container">
+        <div class="carousel-caption">
+         <div class="slideTitle"><a href="webstores.html">CUSTOM ONLINE STORES</a></div>
+        <div class="slideTagline"><a href="webstores.html">show me more</a></div>
+        </div>
+      </div>
+    </div>
+<!-- Slide 5 -->
+  
+    <div class="item"> <img src="source/slides/slide-4.jpg" style="width:100%" data-src="" alt="OVERSEAS SOURCING">
+      <div class="container">
+        <div class="carousel-caption">
+          <div class="slideSingleTitle">OVERSEAS SOURCING</div>
+        </div>
+      </div>
+    </div>
+</div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> </div>
+ <!-- End Hero Slider Section -->
+ <!-- About Section -->
+<div class="aboutBox">
+ <div class="about">
+ <div> <div class="aboutNut"><img src="source/about-nut.png"/></div><div class="aboutText">Pinpoint is a family-run product design, manufacturing, e-commerce, brand licensing, and order fulfillment partner to brands who wish to feature custom apparel and merchandise through any combination of online retail, brick and mortar retail, wholesale distribution, and promotional giveaways.</div>
+  </div>
+ </div>
+</div>
+ <!-- Licensing Section -->
+<div class="licensingContainer">
+  <div class="licensingImage"><a href="https://www.leupoldshop.com" target="_blank"><img src="source/leupold-laptop.png" width="563" height="347" alt=""/></a></div>
+   <div>
+    <div class="licensingTitle">
+      PARTNER SPOTLIGHT
+    </div>
+    
+      <div class="licensingSub">
+        Leupold Optics
+      </div>
+    <div class="licensingText">A hybrid webstore for both retail and wholesale buyers, the Leupold Pro Gear shop is the official Leupold merchandise store. Built from the ground up and operated solely by Pinpoint, it’s the perfect blend of everything in our arsenal - from product design, manufacturing, and e-commerce to warehousing, global fulfillment, and real-time reporting.</div>
+  </div>
+<div class="licensingButton"> <a href="http://www.leupoldshop.com" target="_blank"><img src="source/check-it-out-button.jpg" alt="CHECK IT OUT"/></a>
+ 
+ </div>
+</div>
+<!-- Gallery Section -->
+<div class="galleryTop"><img src="source/gallery-top.jpg"/>
+</div>
+<div class="gallery">
+  <div class="thumbnailGallery">
+     <img src="source/gallery/Gallery-R1-C1.jpg">
+  </div>
+  <div class="thumbnailGallery">
+     <img src="source/gallery/Gallery-R1-C2.jpg"> 
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R1-C3.jpg"> 
+  </div>
+  <div class="thumbnailGallery">
+     <img src="source/gallery/Gallery-R2-C1.jpg">  
+  </div>
+  <div class="thumbnailGallery">
+     <img src="source/gallery/Gallery-R2-C2.jpg">
+  </div>
+  <div class="thumbnailGallery">
+     <img src="source/gallery/Gallery-R2-C3.jpg"> 
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R3-C1.jpg"> 
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R3-C2.jpg">  
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R3-C3.jpg">  
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R4-C1.jpg"> 
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R4-C2.jpg">  
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R4-C3.jpg">  
+  </div>
+	<div class="thumbnailGallery">
+      <img src="source/gallery/GIRLS.jpg"> 
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R5-C1.jpg"> 
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R5-C2.jpg">  
+  </div>
+	<div class="thumbnailGallery">
+      <img src="source/gallery/SHORTS.jpg">  
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R5-C3.jpg">  
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R6-C1.jpg"> 
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R6-C2.jpg">  
+  </div>
+  <div class="thumbnailGallery">
+     <img src="source/gallery/Gallery-R6-C3.jpg">  
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R7-C1.jpg"> 
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R7-C2.jpg">  
+  </div>
+	<div class="thumbnailGallery">
+      <img src="source/gallery/PLATE.jpg">  
+  </div>
+  <div class="thumbnailGallery">
+      <img src="source/gallery/Gallery-R7-C3.jpg">  
+  </div>
+</div>
+	  <!-- Video #1 Section -->
+<div class="videoContainer">
+  <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/fBvBaTsXI4U?rel=0" frameborder="0" class="videoLive" allowfullscreen></iframe>
+  </div>
+</div>
+  <!-- Video #2 Section -->
+<div class="videoContainer">
+  <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/bG49bffmXP4?rel=0" frameborder="0" class="videoLive" allowfullscreen></iframe>
+  </div>
+</div>
+  <!-- Video #3 Section -->
+<div class="videoContainer">
+  <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/AzwgI477gEI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>	
+
+<!-- Process section -->
+<div class="processContainer">
+    <img src="source/CS_BANNER2.jpg" class="processImage"/>
+</div>
+
+<!-- What We Do Section -->
+<div class="servicesContainer">
+  <div class="servicesGallery">
+    <div class="servicesIcon"><img src="source/icons/custom-garment-design.jpg" alt="CUSTOM GARMENT DESIGN"/></div>
+    <div class="servicesText">CUSTOM GARMENT DESIGN</div>
+  </div>
+  <div class="servicesGallery">
+    <div class="servicesIcon"><img src="source/icons/cut-and-sew.jpg" alt="CUT-AND-SEW"/></div>
+    <div class="servicesText">CUT-AND-SEW</div>
+  </div>
+  <div class="servicesGallery">
+    <div class="servicesIcon"><img src="source/icons/merchandise-design.jpg" alt="MERCHANDISE DESIGN"/></div>
+    <div class="servicesText">MERCHANDISE DESIGN</div>
+  </div>
+  <div class="servicesGallery">
+    <div class="servicesIcon"><img src="source/icons/manufacturing.jpg" alt="MANUFACTURING"/></div>
+    <div class="servicesText">MANUFACTURING</div>
+  </div>
+  <div class="servicesGallery">
+    <div class="servicesIcon"><img src="source/icons/factory-sourcing.jpg" alt="FACTORY SOURCING"/></div>
+    <div class="servicesText">FACTORY SOURCING</div>
+  </div>
+  <div class="servicesGallery">
+    <div class="servicesIcon"><img src="source/icons/importation.jpg" alt="IMPORTATION"/></div>
+    <div class="servicesText">IMPORTATION</div>
+  </div>
+  <div class="servicesGallery">
+    <div class="servicesIcon"><img src="source/icons/brand-licensing.jpg" alt="BRAND LICENSING"/></div>
+    <div class="servicesText">BRAND LICENSING</div>
+  </div>
+  <div class="servicesGallery">
+    <div class="servicesIcon"><img src="source/icons/custom-online-stores.jpg" alt="CUSTOM ONLINE STORES"/></div>
+    <div class="servicesText">CUSTOM ONLINE STORES</div>
+  </div>
+  <div class="servicesGallery">
+    <div class="servicesIcon"><img src="source/icons/warehousing-and-fulfillment.jpg" alt="WAREHOUSING AND FULFILLMENT"/></div>
+    <div class="servicesText">WAREHOUSING AND FULFILLMENT</div>
+  </div>
+</div>
+<!-- Creativity Section -->
+  <div class="creativityContainer"><img src="source/creativity.jpg"/></div>
+<!-- Leadership Section -->
+<div class="leadershipLineContainer"><img src="source/divider-line.jpg"/></div>
+<div class="leadershipTitleContainer">MEET OUR LEADERSHIP</div>
+  <div class="leadershipContainer">
+    <div class="leaderContainer">
+      <img src="source/leadership/Lynn-Graham.jpg" width="501" height="676" alt=""/><div class="leaderName">Lynn Graham</div>
+      <div class="leaderTitle">President/CEO</div>
+      <div class="leaderBlurb"> <strong>ALIAS:</strong> The Don<br>
+        <br>
+        With decades of experience in the development and growth of both small and large businesses, Lynn has led successful companies across many industries and on multiple continents.  He enjoys spending time with his wife, two children, and four grandchildren, along with fly fishing and discussing politics at inopportune times.  Lynn is a graduate of The University of Southern Mississippi.<br>
+        <br>
+        <strong>QUOTE:</strong> “Stay the course.”<br>
+        <br>
+      <strong>FACT:</strong> Lynn was an Army Ranger and is a combat veteran of the Vietnam War.      </div>
+    </div>
+    <div class="leaderContainer">
+      <img src="source/leadership/Scott-Graham.jpg" width="501" height="676" alt=""/><div class="leaderName">Scott Graham</div>
+      <div class="leaderTitle">Chief Operating Officer</div>
+      <div class="leaderBlurb"> <strong>ALIAS:</strong> Wolfman <br>
+        <br>
+      Scott has managed Pinpoint’s overall operations since 2007. He enjoys fishing, carpentry, and spending time with his wife and daughters . Scott holds a BBA in Marketing from the Cox School of Business at Southern Methodist University.<br>
+      <br>        
+      <strong>QUOTE:</strong> “If business isn’t personal to you, you’re doing it wrong.”<br>
+      <br>
+      <strong>FACT:</strong> Scott was born in Munich and speaks fluent German. He’s also a fountain of useless movie knowledge.      </div>
+    </div>
+    <div class="leaderContainer">
+      <img src="source/leadership/Michell-McDonald.jpg" width="501" height="676" alt=""/>
+      <div class="leaderName">Michell McDonald</div>
+      <div class="leaderTitle">Account Manager Team Captain</div>
+      <div class="leaderBlurb"> <strong>ALIAS:</strong> Mitchell<br>
+        <br>
+      As Pinpoint’s longest-tenured employee, Michell leads Pinpoint’s Account Management team. Having been with the company since 2003, she’s only a few more years away from a pay increase.        <br>
+      <br>
+      <strong>QUOTE:</strong> “Time’s up.”<br>
+      <br>
+      <strong>FACT:</strong> Michell enlisted with the United States Army during Desert Storm.      </div>
+    </div>
+    <div class="leaderContainer">
+      <img src="source/leadership/Matt-Lomonaco.jpg" width="501" height="676" alt=""/>
+      <div class="leaderName">Matt Lomonaco</div>
+      <div class="leaderTitle">Creative Director</div>
+      <div class="leaderBlurb"> <strong>ALIAS:</strong> Diablo Rojo<br>
+        <br>
+      Matt joined the Pinpoint team in 2010 and leads our graphic design team. He enjoys male grooming products, horror movies, and microwaveable frozen lunches.  Matt is a graduate of the acclaimed Art Institute of Dallas.<br>
+      <br>
+      <strong>QUOTE:</strong> “Be like water.”<br>
+      <br>
+      <strong>FACT:</strong> Matt has the Pinpoint logo tattood on his butt (truth).      </div>
+    </div>
+        <div class="leaderContainer">
+      <img src="source/leadership/Whitney-Murillo.jpg" width="563" height="760" alt=""/>
+      <div class="leaderName">WHITNEY MURILLO</div>
+      <div class="leaderTitle">Global Sourcing Ninja</div>
+      <div class="leaderBlurb"> <strong>ALIAS:</strong> Beetlejuice<br>
+        <br>
+      Whitney joined the Pinpoint team in 2018 and manages the overseas sourcing of custom soft goods across all categories. A graduate of the Art Institute of Dallas, Whitney is the main point of contact for all of our overseas factories as it relates to day-to-day communication, project management, and late night Skype parties.
+      <br>
+      <br>
+      <strong>QUOTE:</strong> “Bye Felicia.”<br>
+      <br>
+      <strong>FACT:</strong> Whitney has her own podcast about dream interpretation, despite having no knowledge about dream interpretation.</div>
+    </div>
+	  <div class="leaderContainer"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Trigga','','source/leadership/TOMI_HOVER.jpg',1)"><img src="source/leadership/TOMI.jpg" alt="" width="501" height="676" id="Trigga"></a>
+      <div class="leaderName">Tomi Trigg</div>
+      <div class="leaderTitle">Biz Dev Ninja</div>
+      <div class="leaderBlurb"> <strong>ALIAS:</strong> Trigga<br>
+        <br>
+      Tomi joined Pinpoint in January of 2017 in a sales and marketing capacity. She works directly with Scott on all business development initiatives, specifically as it relates to finding badass customers for us to make badass stuff for. Tomi enjoys cheesy humor, puns, dad jokes, salad bars, condiments, fitness, Disney movies, making long lists, and looking for her real-life Jim Halpert.<br>
+      <br>
+      <strong>QUOTE:</strong> “Shake and bake, Ricky Bobby!”<br>
+      <br>
+      <strong>FACT:</strong> Tomi took the ribbon for 3rd place in her 5th grade science fair.</div>
+    </div>
+    <div class="leaderContainer">
+      <img src="source/leadership/Tony-Franjic.jpg" width="501" height="676" alt=""/>
+      <div class="leaderName">Tony Franjic</div>
+      <div class="leaderTitle">Director of Fulfillment</div>
+      <div class="leaderBlurb"> <strong>ALIAS:</strong> The Machine<br>
+        <br>
+      Originally a native of Eastern Europe, Tony started with Pinpoint as a one-man fulfillment operation, fielding all e-commerce orders, managing all inventories, and shipping every order by hand.  He’s now the head of a 16-person fulfillment team, ensuring that all packaging, finishing, inventory management, and outbound shipping go off without a hitch.  Tony is a true master of his craft.<br>
+      <br>
+      <strong>QUOTE:</strong> “Better to be rich and handsome than poor and ugly.”<br>
+      <br>
+      <strong>FACT:</strong> Tony was working the night shift at a 7-11 in downtown Dallas when Scott discovered him.      </div>
+    </div>
+    <div class="leaderContainer">
+      <img src="source/leadership/Mandy-Martinez.jpg" width="501" height="676" alt=""/>
+      <div class="leaderName">Mandy Martinez</div>
+      <div class="leaderTitle">Screen Printing Manager</div>
+      <div class="leaderBlurb"> <strong>ALIAS:</strong> The Whip<br>
+        <br>
+      Mandy manages a screen printing staff of 22 print techs and oversees all of Pinpoint’s daily onsite screen printing operations, including scheduling, production management, and quality control.<br>
+      <br>
+      <strong>QUOTE:</strong> “Okay, break’s over.”<br>
+      <br>
+      <strong>FACT:</strong> Mandy is a black belt in karate.      </div>
+    </div>
+  </div>
+<!-- Footer Section -->
+<section class="footer_banner" id="contact">
+  <div class="footerHunt">HUNT US DOWN</div>
+  <div class="footerAddress">TOLL FREE: 800.521.2462       &nbsp;&nbsp;&nbsp;LOCAL: 817.569.9840       &nbsp;&nbsp;&nbsp;OLD SCHOOL FAX: 817.569.9843       &nbsp;&nbsp;&nbsp;<a href="mailto:INFO@PINPOINTMERCH.COM">INFO@PINPOINTMERCH.COM</a><br>
+  3710  W  ROYAL  LN, &nbsp;SUITE  125,   &nbsp;IRVING, TX  75063</div>
+  <div class="footerCopyright">© 2017 Pinpoint Marketing Group, Inc. DBA Pinpoint Merchandising.  All Rights Reserved. All other marks are the property of their respective owners.<br/></div>
+</section>
+<!-- Main Container Ends -->
+<script src="javascripts/jquery-2.1.1.js"></script>
+<script src="javascripts/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
